@@ -24,7 +24,7 @@ import java.util.TimeZone
 
 object AirportBus extends App {
 
-  val dataPath: String = "/Users/BH/Desktop/KTH/termin3/ID2221 Data-Intensive Computing/lab3/flink-scala-project/nycTaxiRides.gz"
+  val dataPath: String = "/path/to/nycTaxiRides.gz"
 
   sealed trait Terminal{def grid: Int}
   case object Terminal_1 extends Terminal {val grid = 71436}
